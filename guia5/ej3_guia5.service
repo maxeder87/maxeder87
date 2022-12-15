@@ -1,0 +1,10 @@
+[Unit]
+Description = Servicio ej3_guia5
+
+[Service]
+Type=simple
+ExecStart=/guia_edp/maxeder87/guia5/ej3_guia5.sh
+
+
+[Install]
+WantedBy=multi-user.target
